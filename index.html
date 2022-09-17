@@ -321,7 +321,9 @@ input[type=number] {
       </select>
       <div class="d-flex mt-3">
         <input class="form-control me-2" type="number" min="0" placeholder="Enter whatsapp number" aria-label="Search" required
-          id="number" />
+          id="number"
+          onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;"     
+          />
         <button class="btn btn-outline-success" type="submit">Chat</button>
       </div>
     </form>

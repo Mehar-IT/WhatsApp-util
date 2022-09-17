@@ -2,4 +2,4 @@
 
 ### It will redirect to whatsapp chat of given number on your whatsapp
 
-<a href="https://mywhatsapputil.surge.sh/">Live</a>
+<a href="https://mehar-it.github.io/WhatsApp-util/">Live</a>
